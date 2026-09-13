@@ -2,7 +2,7 @@ import random
 
 n = input('Informe até qual número o sorteio pode ser realizado: ')
 
-if n.isdigit():
+if n.isdigit(): # verifica se a str tem somente números inteiros positivos.
     n = int(n)
 else:
     print('ERRO: Valor informado não é númerico. Tente novamente informando um número.')
